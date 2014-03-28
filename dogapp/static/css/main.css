@@ -1,0 +1,69 @@
+body {text-align:center; margin: 0 auto;}
+.form {color:#a5a5a6;}
+a:link,a:visited, a:hover {text-decoration: none;} 
+div.mainDiv{margin: 0 auto;border:1px solid #cdcdcd;width:800px; height:0px auto;background-color:#f1f5f3;font-style:verdana,arial; font-size:16px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+	padding:20px 0px 20px 0px;
+}
+div.mainDiv_search{margin: 0 auto;border:1px solid #cdcdcd;width:400px; height:0px auto;background-color:#f1f5f3;font-style:verdana,arial; font-size:16px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+	padding:20px 0px 20px 0px;
+	text-align:left;
+}
+div#linkback{margin:30px;}
+div.mainDiv_addnew{margin: 0 auto;border:1px solid #cdcdcd;width:400px; height:0px auto;background-color:#f1f5f3;font-style:verdana,arial; font-size:16px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+}
+#outerdiv{margin:50px;}
+.doBold {font-weight:bold;}
+ul.headul{ border: none; background-color: black !important;}
+ul.list{ clear: both; border: none; padding-top: 20px;}
+li { float: left; list-style: none; border-right:1px solid #eee; }
+.coleven{ width: 150px; }
+.colodd{ width: 150px; }
+.coleven_search{ width: 150px; }
+.colodd_search{ width: 150px; margin-right:20px;}
+.colowner{ width: 250px; }
+.clear { clear: both; }
+img#dogimg {box-shadow: 0px 0px 10px #888; border-radius: 5px;}
+#search{border-radius: 5px;}
+#popupBox {padding:20px; width:auto;}
+
+input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+text-decoration: none;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#gobutton:hover, input#gobutton:focus{
+background-color :#399630; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+input.formfield{padding:5px;margin:10px;width:250px;color:#a5a5a6;}
